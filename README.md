@@ -1,5 +1,4 @@
-# MyViewStudy
-
+# MyViewStudy（画图练手）
 ###Android view 图片展示:
  
 
