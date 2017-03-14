@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/fragment_main_measure_shape"
+                android:gravity="center"
+                android:text="130"
+                android:textColor="#ffffff"
+                android:textSize="54sp" />
+
+            <com.lisheny.lenovo.myviewstudy.canvas.BloodPressureView
+                android:id="@+id/bloodpresureview"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp" />
+
+            <com.lisheny.lenovo.myviewstudy.canvas.SectorView
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <LinearLayout
+                android:id="@+id/customCurveChart"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+            </LinearLayout>
+
+            <com.lisheny.lenovo.myviewstudy.canvas.PieChartView
+                android:id="@+id/pie_chart"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingBottom="40dp"
+                android:paddingLeft="20dp"
+                app:circleRadius="100dp"
+                app:textSize="13sp" />
+
+            <com.lisheny.lenovo.myviewstudy.canvas.BarChartView
+                android:id="@+id/barcharview"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp" />
+
+            <com.lisheny.lenovo.myviewstudy.canvas.BleResureView
+                android:id="@+id/my_bleresureview"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <com.lisheny.lenovo.myviewstudy.canvas.DynamicLineChartView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#71caed" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

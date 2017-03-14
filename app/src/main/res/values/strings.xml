@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyViewStudy</string>
+    <string name="view_high_blood">高压</string>
+    <string name="view_low_blood">低压</string>
+    <string name="view_pr_blood">脉率</string>
+</resources>
